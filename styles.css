@@ -1,13 +1,13 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: black;
-    padding: 50px;
+    padding: 40px;
 }
 .container {
     display: block;
     margin: auto;
     width: 400px;
-    height: 500px;
+    height: 470px;
     background: white;
     justify-content: center;
 }
