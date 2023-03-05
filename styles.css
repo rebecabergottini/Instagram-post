@@ -1,61 +1,69 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: black;
-    padding: 40px;
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  padding: 40px;
 }
 .container {
-    display: block;
-    margin: auto;
-    width: 400px;
-    height: 470px;
-    background: white;
-    justify-content: center;
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  background: white;
+  justify-content: center;
+  border-radius: 10px;
 }
 
-
 i {
-    margin: 10px;
-    float: left;
+  margin: 10px;
+  float: left;
 }
 
 .puntos {
-    margin: 5px;
-    margin-bottom: 6px;
-    float: right;
+  margin: 5px;
+  margin-bottom: 6px;
+  float: right;
 }
 
 h1 {
-    font-size: 15px;
-    margin-left: 3px;
-    width: 0;
-    margin-top: 10px;
-    float: left;
+  font-size: 1.5rem;
+  margin: 0;
+  width: 0;
+  margin-top: 10px;
+  float: left;
 }
 
 h6 {
-    font-weight: lighter;
-    font-size: 16px;
-    margin-left: 0px;
-    width: 0;
-    margin-top: 30px;
-    float: left;
+  font-weight: lighter;
+  font-size: 16px;
+  width: 0;
+  margin-top: 32px;
+  float: left;
 }
 img {
-    align-items: center;
-    margin-top: -10px;
+  align-items: center;
+  margin-top: auto;
 }
 .icons {
-    margin-top: 10px;
-    display: flex;
+  margin-top: 3px;
+  display: flex;
+
 }
+
+.fa-heart, .fa-comment, .fa-paper-plane, .fa-bookmark {
+  font-size: 1.5rem;
+}
+
+
 .bookmark {
-    margin-left: 55%;
+  margin-left: auto;
 }
 
 .likes {
-    margin: 10px;
+  margin: 10px;
 }
 .paragraph {
-    text-align: justify;
-    margin: 10px;
+  text-align: justify;
+  margin: 10px;
+  height: 120px;
 }
